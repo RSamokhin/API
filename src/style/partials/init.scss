@@ -1,0 +1,30 @@
+$borderColor:cadetblue;
+
+.footer{
+    width: 100%;
+    position: absolute;
+    bottom: 10px;
+    #footerHr{
+        border-color: $borderColor;
+    }
+    #footerText{
+        color: $borderColor;
+        margin-left: auto;
+        margin-right: auto;
+        width: 250px;
+    }
+}
+.header{
+    width: 100%;
+    margin-top: 10px;
+    #headerHr{
+        border-color: $borderColor;
+    }
+    #headerText{
+        color: $borderColor;
+        margin-left: auto;
+        margin-right: auto;
+        width: 370px;
+    }
+}
+
