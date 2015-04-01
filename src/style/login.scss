@@ -1,0 +1,33 @@
+$borderColor:cadetblue;
+#loginForm{
+  border: solid 3px $borderColor;
+  padding: 20px;
+  width: 210px;
+  border-radius: 10px;
+  margin: auto;
+  input{
+    display: block;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+  }
+}
+.content{
+  display: table;
+  width: 100%;
+  height: 80%;
+  box-sizing: border-box;
+}
+#loginFormContainer{
+  display: table-cell;
+  vertical-align: middle;
+}
+#loginButton{
+  height: 26px;
+  border-radius: 5px;
+  width: 100px;
+  background-color: $borderColor;
+  margin-left: 110px;
+}
+
